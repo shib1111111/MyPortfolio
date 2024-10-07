@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <TransitionProvider>{children}</TransitionProvider>
-        <Footer></Footer>
+        <Footer />
       </body>
     </html>
   );
